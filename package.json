@@ -1,0 +1,34 @@
+{
+  "name": "megaoptim",
+  "version": "1.0.0",
+  "author": {
+    "name": "MegaOptim",
+    "email": "support@megaoptim.com"
+  },
+  "description": "Node.js module for working with the powerful MegaOptim.com Image Optimization RESTful services",
+  "homepage": "https://github.com/megaoptim/megaoptim-node",
+  "main": "./src/megaoptim.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/megaoptim/megaoptim-node.git"
+  },
+  "keywords": [
+    "megaoptim image optimizer",
+    "megaoptim.com",
+    "optimizer",
+    "image optimiser",
+    "lossless compression",
+    "lossy compression",
+    "image compression",
+    "gif",
+    "jpg",
+    "png"
+  ],
+  "license": "GPL-3.0",
+  "engine": {
+    "node": ">=0.8"
+  },
+  "dependencies": {
+    "request": "^2.67.0"
+  }
+}
