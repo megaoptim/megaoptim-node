@@ -27,7 +27,7 @@ The API currently accepts the following parameters:
 
 | Parameter 	    | Possible Values               	                                        |
 |-------------------|---------------------------------------------------------------------------|
-| `compression`     | `lossy` or `lossless` (default: `lossy`)                                  |
+| `compression`     | `intelligent`, `ultra` or `lossless` (default: `intelligent`)             |
 | `type`        	| `url`, `urls`, `file`, `files`. `file/s` are local paths                  |
 | `cmyktorgb`   	| `1` or `0` (default: `1`)                                                 |
 | `keep_exif`   	| `1` or `0` (default: `0`)                                                 |
@@ -64,7 +64,7 @@ Method `POST`, URL: `https://api.megaoptim.com/v1/optimize`
 {
     type: 'url',
     url: 'https://someurl.com/1.jpg',
-    compression: 'lossy'
+    compression: 'intelligent'
 }
 ```
 
@@ -125,7 +125,7 @@ Method `POST`, URL: `https://api.megaoptim.com/v1/optimize`
 {
     type: 'url',
     url: 'https://someurl.com/1.jpg',
-    compression: 'lossy',
+    compression: 'intelligent',
     callback_url: 'https://my-awesome-website.com/megaoptim_callback'
 }
 ```

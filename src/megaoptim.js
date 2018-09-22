@@ -140,7 +140,7 @@ MegaOptim.prototype.send = function (resource, params, cb) {
     var help = 'Invalid resouce type. Resource must be valid image. Also it should any of the following: ';
     help += 'image url, local image path, tuple of up to 5 image urls or tuple of up to 5 local image paths.';
 
-    params = this.maybe_set_default('compression', 'lossy', params);
+    params = this.maybe_set_default('compression', 'intelligent', params);
     params = this.maybe_set_default('keep_exif', '1', params);
     params = this.maybe_set_default('cmyktorgb', '1', params);
     params = this.maybe_set_default('max_width', '0', params);
